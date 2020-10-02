@@ -1,0 +1,27 @@
+syntax = "proto3";
+package proto;
+option  go_package = "github.com/mirrorsge/microdemo;proto";
+
+
+import "google/api/annotations.proto";
+
+message Request {
+    string name = 1;
+}
+message Response {
+    string name = 1;
+}
+service AlphaService {
+    rpc Hello(Request) returns (Response) {
+        option (google.api.http) = {
+            post: "/v1/alpha/hello"
+            body: "*"
+        };
+    }
+    rpc Goodbye(Request) returns (Response) {
+        option (google.api.http) = {
+            post: "/v1/alpha/goodbye"
+            body: "*"
+        };
+    }
+}
