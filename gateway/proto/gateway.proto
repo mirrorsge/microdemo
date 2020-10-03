@@ -2,11 +2,11 @@ syntax = "proto3";
 package proto;
 option  go_package = "github.com/mirrorsge/microdemo;proto";
 
-
 import "google/api/annotations.proto";
+import "validator.proto";
 
 message Request {
-    string name = 1;
+    string name = 1 [(validator.field) = {string_not_empty:true}];
 }
 message Response {
     string name = 1;

@@ -9,8 +9,11 @@ type Server struct {
 	pb.UnimplementedAlphaServiceServer
 }
 
-func (s *Server) Hello(context.Context, *pb.Request) (*pb.Response, error) {
+func (s *Server) Hello(ctx context.Context, req *pb.Request) (resp *pb.Response, err error) {
+	if err := req.Validate(); err != nil {
+		return nil, err
+	}
 	return &pb.Response{
-		Name: "lijianjun",
+		Name: req.Name,
 	}, nil
 }

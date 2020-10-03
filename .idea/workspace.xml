@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1914175-38fb-4fd0-b429-42778acb4b61" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/microdemo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/alpha/handlers/alpha.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/proto/gateway_grpc.pb.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/proto/gateway.validator.pb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/alpha/handlers/alpha.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/alpha/handlers/alpha.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/proto/gateway.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/proto/gateway.pb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/proto/gateway.proto" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/proto/gateway.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +43,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -72,14 +74,14 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="802" y="310" width="730" height="495" key="EditFileWatcherDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1601631451287" />
-    <state x="743" y="315" width="424" height="491" key="FileChooserDialogImpl" timestamp="1601628755735">
+    <state x="743" y="315" width="424" height="491" key="FileChooserDialogImpl" timestamp="1601645450765">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="743" y="315" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1601628755735" />
-    <state x="654" y="186" width="1037" height="737" key="SettingsEditor" timestamp="1601631843989">
+    <state x="743" y="315" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1601645450765" />
+    <state x="654" y="186" width="1037" height="737" key="SettingsEditor" timestamp="1601645456710">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="654" y="186" width="1037" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1601631843989" />
+    <state x="654" y="186" width="1037" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1601645456710" />
     <state x="623" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1601631012271">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
