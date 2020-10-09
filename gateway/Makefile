@@ -13,6 +13,7 @@ proto:
 	--go-grpc_opt paths=source_relative \
 	--govalidators_out ./proto \
 	--govalidators_opt paths=source_relative \
+	--swagger_out ./swagger \
 	./proto/*.proto
 	
 	
