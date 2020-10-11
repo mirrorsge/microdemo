@@ -15,5 +15,4 @@ proto:
 	--govalidators_opt paths=source_relative \
 	--swagger_out ./swagger \
 	./proto/*.proto
-	
-	
+
