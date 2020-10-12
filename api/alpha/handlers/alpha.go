@@ -17,3 +17,12 @@ func (s *Server) Hello(ctx context.Context, req *pb.Request) (resp *pb.Response,
 		Name: req.Name,
 	}, nil
 }
+
+func (s *Server) Goodbye(ctx context.Context, req *pb.Request) (resp *pb.Response, err error) {
+	if err := req.Validate(); err != nil {
+		return nil, err
+	}
+	return &pb.Response{
+		Name: req.Name,
+	}, nil
+}
